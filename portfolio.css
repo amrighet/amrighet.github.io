@@ -1,0 +1,1240 @@
+@media (min-width: 300px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: lithos-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c809b;
+  }
+
+  /*navigation setup*/
+  .navbar {
+    font-family: lithos-pro, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #bfbfb4 0%, #e6e6e6 100%);
+    border: 0.1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    color: #7c809b;
+  }
+
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+
+  .nav-links,
+  .logo {
+    text-decoration: none;
+    color: #7c809b;
+    width: 10px;
+    height: 10px;
+  }
+
+  /*logo image*/
+  #logo {
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: #7c809b;
+    font-size: 24px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* Style the header */
+  header {
+    background-image: url("bannerlotus360_600.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500px 300px;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 0;
+  }
+
+  .about300 {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  #content {
+    text-align: center;
+    color: #83836c;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  /*About me page beginning content*/
+  #contentabout {
+    text-align: left;
+    color: #65b4cb;
+    font-family: lithos-pro, sans-serif;
+    font-size: 15px;
+    margin: 8px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+  }
+
+  .pre {
+    background-image: url("colorblockplural.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 320px 200px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  /*about me page expanded bio setup for mosaic*/
+  .preabout {
+    background-image: url("colorblockplural.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 360px 910px;
+    padding: 7px;
+    text-align: center;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  /*Portfolio Page setup*/
+
+  h1 {
+    text-align: center;
+  }
+
+  #portfoliocontainer {
+    display: flex;
+    text-align: center;
+    background-image: url("portfoliobackdrop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1100px 2500px;
+    padding-top: 100px;
+    padding-bottom: px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .websitephotos {
+    width: 250px;
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+
+  .block1 {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 300px;
+  }
+
+.block2 {
+	text-align: center;
+	font-family: lithos-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+}
+
+
+  /*form*/
+  .submit-btn {
+    border: solid 1px #ffffff;
+    border-radius: 3px;
+    moz-border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    font-size: 12px;
+    text-align: center;
+    color: #003366;
+    padding: 5px 12px;
+    background-color: rgba(96, 143, 159, 0.6);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .submit-btn:hover {
+    background-color: #f0f8ff;
+  }
+
+  form {
+    text-align: center;
+    color: #7c809b;
+    margin: 0 auto;
+  }
+
+  input[type="text"] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="tel"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="email"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  input[type="radio"] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  select {
+    width: 30%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  .form {
+    background-image: url("colorblockplural.png");
+    display: flex;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1100px 2500px;
+  }
+}
+
+/*footer setup*/
+footer {
+  background-image: linear-gradient(360deg, #e6e6e6 0%, #7c809b 100%);
+  /* keeps it middle */
+  background-size: cover;
+  color: #7c809b;
+  width: 100%;
+}
+
+/*footer Columns*/
+/*floating uneven columns */
+.footer-column {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 45px 50px;
+  margin-top: 200px;
+}
+
+.footer-column .footer-left p {
+  color: #7c809b;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-column p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.footer-column p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-column .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-column .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+}
+
+@media (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: lithos-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c809b;
+  }
+
+  /*navigation setup*/
+  .navbar {
+    font-family: lithos-pro, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #bfbfb4 0%, #e6e6e6 100%);
+    padding-bottom: 10px;
+    color: #7c809b;
+  }
+
+  .main-nav {
+    list-style-type: none;
+    display: none;
+  }
+
+  .nav-links,
+  .logo {
+    text-decoration: none;
+  }
+
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  .logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* Style the header */
+  header {
+    background-image: url("bannerlotus360_600.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 600px 420px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  #content {
+    text-align: center;
+    color: #83836c;
+    font-size: 20px;
+    margin: 30px;
+  }
+
+  .about300 {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  /*About me page beginning content*/
+  #contentabout {
+    text-align: left;
+    color: #65b4cb;
+    font-family: lithos-pro, sans-serif;
+    font-size: 15px;
+    margin: 8px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  /* the space before mosaic on about and index cloud*/
+  .pre {
+    background-image: url("colorblockplural.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 320px 200px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  /*about me page expanded bio setup for mosaic*/
+  .preabout {
+    background-image: url("colorblockplural.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 360px 910px;
+    padding: 7px;
+    text-align: center;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}
+
+@media (min-width: 501px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: lithos-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c809b;
+  }
+
+  /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  /* Style the header */
+  header {
+    /*make the banner invisible beyound 600 px*/
+    display: none;
+    padding: 37px;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+  }
+
+  /*space between header and content*/
+  #content {
+    margin-top: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+
+  .about300 {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+  /*desktop settings for about page*/
+
+  /*This is the annoying background behind 2 column*/
+  .desktopaside {
+    background-image: url("desktopaboutme.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 900px 1100px;
+    padding-top: 550px;
+    padding-bottom: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    padding-top: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .aboutmerow {
+    display: block;
+  }
+
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 40px;
+    height: 200px;
+    margin-top: 80px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .rightcolumn {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 260px;
+    font-size: 15px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 320px;
+    font-size: 15px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  .pre {
+    background-image: url("cloud360_600.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 600px 300px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}
+
+@media (min-width: 600px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: lithos-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c809b;
+  }
+
+  /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  /* Style the header */
+  header {
+    text-align: center;
+    font-size: 42px;
+    color: white;
+  }
+
+  /*desktop settings for about page*/
+
+  /*This is the annoying background behind 2 column*/
+  .desktopaside {
+    background-image: url("desktopaboutme.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 900px 1100px;
+    padding-top: 550px;
+    padding-bottom: 550px;
+    margin-bottom: 10px;
+  }
+
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+
+  .rightcolumn {
+    margin-top: 80px;
+    font-size: 15px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 340px;
+    font-size: 15px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 360px;
+    font-size: 15px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}
+
+@media (min-width: 820px) {
+  /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  
+  
+  
+  /*desktop settings for about page*/
+
+  /*This is the annoying background behind 2 column*/
+  .desktopaside {
+    background-image: url("desktopaboutme.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 900px 1100px;
+    padding-top: 550px;
+    padding-bottom: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 40px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 100px;
+    font-size: 15px;
+  }
+
+  .rightcolumn {
+    margin-top: 100px;
+    font-size: 15px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 320px;
+    font-size: 15px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 360px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 980px) {
+  /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  
+  
+  /*desktop settings for about page*/
+
+  /*This is the annoying background behind 2 column*/
+  .desktopaside {
+    background-image: url("desktopaboutme.png");
+    /* keeps it middle */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 900px 1100px;
+    padding-top: 550px;
+    padding-bottom: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 30px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .rightcolumn {
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 360px;
+    font-size: 20px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 380px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1020px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: lithos-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c809b;
+  }
+
+  /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  /* Style the header */
+  header {
+    text-align: center;
+    font-size: 42px;
+    color: white;
+  }
+
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .rightcolumn {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 290px;
+    font-size: 25px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 320px;
+    font-size: 25px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1021px) and (max-width: 1280px) {
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .rightcolumn {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 320px;
+    font-size: 25px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 380px;
+    font-size: 25px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1281px) {
+  
+   /*navigation setup*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  
+  .aboutmecolumn {
+    /* Create two equal columns that floats next to each other */
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-family: lithos-pro, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Clear floats after*/
+
+  .aboutrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*left and right paragraphs within columns*/
+  .leftcolumn {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .rightcolumn {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .leftbotcolumn {
+    margin-top: 320px;
+    font-size: 25px;
+  }
+
+  .rightbotcolumn {
+    margin-top: 380px;
+    font-size: 25px;
+  }
+
+  body {
+    font-family: "Montserrat", san-serif;
+    color: #7c809b;
+  }
+
+  footer {
+    padding-top: 800px;
+    color: #7c809b;
+    height: 200px;
+  }
+}

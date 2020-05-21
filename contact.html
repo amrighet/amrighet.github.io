@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Homemade Righetti</title>
+<!--
+	Welcome, Thank you for exploring my code. Hope this helps you out. I like notes
+	-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<link rel="icon" href="favicon.ico" type="image/xx-icon">
+  
+<link rel="stylesheet" href="portfolio.css">
+   
+ <!--fonts and toggle bar--> 
+ <link rel="stylesheet" href="https://use.typekit.net/iut0vgu.css"> 
+  <!-- font awesome icons hamburger-->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"> 
+  
+<style>
+
+</style>
+
+
+<!-- This is where I want to add the
+ script for pop up if site crashes-->
+  </head>  
+
+  
+  <body>
+  
+  
+   <nav class="navbar">
+     <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+    <a href="index.html" class="logo"><img id="logo" src="logoblue.png" alt="Blue Lotus Logo"></a><small>Homemade Righetti</small>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="portfolio.html" class="nav-links">Portfolio</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About</a>
+      </li>
+      <li>
+        <a href="contact.html" class="nav-links">Contact</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links">Faq</a>
+      </li>
+    </ul>
+  </nav>
+    
+    
+    
+ <aside class="form"> 
+
+	<script language=”JavaScript”>
+
+	var frmvalidator = new Validator(“contactform”);
+	frmvalidator.addValidation(“name”,”req”,”Please provide your name”);
+	frmvalidator.addValidation(“email”,”req”,”Please provide your email”);
+	frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”);
+
+	</script>
+
+	
+<!-- This form has html5 built in required functionality that is the first line of defense for making them fill out everything-->		
+   
+ <form class="form" method="post" name="contact_form"  action="contact-form-handler.php">
+					<fieldset>
+					<legend>Contact Me<br> <small>Required Information Marked*</legend>
+					<label>* Name</label>
+					<input type="text" name="name" placeholder="Full Name" required="">
+					<label>Address</label>
+					<input type="text" name="street" placeholder="Street Address"><br>
+					<label>City</label>
+					<input type="text" name="city" placeholder="City">&nbsp;
+					<select name="state" id="state">
+  						<option value="" selected="selected">Select a State</option>
+ 			 			<option value="AL">Alabama</option>
+  						<option value="AK">Alaska</option>
+  						<option value="AZ">Arizona</option>
+  						<option value="AR">Arkansas</option>
+  						<option value="CA">California</option>
+  						<option value="CO">Colorado</option>
+  						<option value="CT">Connecticut</option>
+  						<option value="DE">Delaware</option>
+  						<option value="DC">District Of Columbia</option>
+  						<option value="FL">Florida</option>
+  						<option value="GA">Georgia</option>
+  						<option value="HI">Hawaii</option>
+  						<option value="ID">Idaho</option>
+  						<option value="IL">Illinois</option>
+  						<option value="IN">Indiana</option>
+  						<option value="IA">Iowa</option>
+  						<option value="KS">Kansas</option>
+  						<option value="KY">Kentucky</option>
+  						<option value="LA">Louisiana</option>
+  						<option value="ME">Maine</option>
+  						<option value="MD">Maryland</option>
+  						<option value="MA">Massachusetts</option>
+  						<option value="MI">Michigan</option>
+  						<option value="MN">Minnesota</option>
+  						<option value="MS">Mississippi</option>
+  						<option value="MO">Missouri</option>
+  						<option value="MT">Montana</option>
+  						<option value="NE">Nebraska</option>
+  						<option value="NV">Nevada</option>
+ 				 		<option value="NH">New Hampshire</option>
+  						<option value="NJ">New Jersey</option>
+  						<option value="NM">New Mexico</option>
+  						<option value="NY">New York</option>
+ 		 				<option value="NC">North Carolina</option>
+  						<option value="ND">North Dakota</option>
+ 	 					<option value="OH">Ohio</option>
+  						<option value="OK">Oklahoma</option>
+  						<option value="OR">Oregon</option>
+  						<option value="PA">Pennsylvania</option>
+  						<option value="RI">Rhode Island</option>
+  						<option value="SC">South Carolina</option>
+  						<option value="SD">South Dakota</option>
+  						<option value="TN">Tennessee</option>
+  						<option value="TX">Texas</option>
+  						<option value="UT">Utah</option>
+  						<option value="VT">Vermont</option>
+  						<option value="VA">Virginia</option>
+  						<option value="WA">Washington</option>
+  						<option value="WV">West Virginia</option>
+  						<option value="WI">Wisconsin</option>
+  						<option value="WY">Wyoming</option>
+					</select><br><br>
+					<label>* Email</label>
+					<input type="email" name="email" placeholder="name@domain.com" required=""><br><br>
+ 		 			<label>* Comments</label>
+					<textarea name="message" rows="2" cols="20" placeholder="All comments welcomed!" required="" style="margin: 2px; height: 32px; width: 162px;"></textarea>
+					<input type="reset">
+					<div id="mySubmit">
+					<input type="submit" class="submit-btn" value="Submit">
+					</div>
+					</fieldset>
+<!--Each item is labeled required for validation purposes. So this is the 
+basic set up for most validation. I didnt do as
+ javascript heavy for my javascript end as I want to make sure my basic setup was there
+ -->				
+				</form>
+				
+				
+	</aside>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+  
+  
+	<!--column setup for footer-->
+<footer class="footer-column">	
+	
+			<div class="footer-right">
+
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="portfolio.html">Portfolio</a>
+					·
+          			<a href="#">About</a>
+					·
+					<a href="contact.html">Contact</a>
+					·
+					<a href="#">Faq</a>
+					
+					
+				</p>
+
+				<p>Homemade Righetti © 2020</p>
+			</div>
+
+	
+	
+	
+	
+				
+	
+	
+</footer>
+ 
+
+
+  
+  
+  <script>
+    let mainNav = document.getElementById('js-menu');
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+  mainNav.classList.toggle('active');
+});
+  </script>
+	
+
+  </body>
+  
+  </html>
